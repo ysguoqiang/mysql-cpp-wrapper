@@ -13,7 +13,7 @@ int main(int argc, char **argv)
 {
     MyWrapper *con = new MyWrapper();
 
-    if (-1 == con->Connect("localhost", "root", "123456", "student")) {
+    if (-1 == con->Connect("localhost", "root", "passwd", "student")) {
         cout << con->GetErrMsg() << endl;
         return -1;
     }
