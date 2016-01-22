@@ -16,7 +16,7 @@
 #include <vector>
 #include <map>
 
-/* MySQL C API*/
+/* MySQL C API */
 #include <mysql/mysql.h>
 
 using std::map;
