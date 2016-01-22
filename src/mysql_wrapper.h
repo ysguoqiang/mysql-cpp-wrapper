@@ -1,5 +1,5 @@
 /*
- *  mysql_wrapper.h
+ * mysql_wrapper.h
  *
  *  Created on: Jan 21, 2016
  *  Author: Xiaofeng.Wang
@@ -25,16 +25,16 @@ using std::cout;
 using std::endl;
 
 #define ERRMSG(fmt, args...) do {	\
-		snprintf(err_msg_, BUFF_SIZE, "[%s:%s:%d]->"fmt, \
-			__FILE__, __FUNCTION__, __LINE__, ##args); \
-		} while (0)
+    snprintf(err_msg_, BUFF_SIZE, "[%s:%s:%d]->"fmt, \
+        __FILE__, __FUNCTION__, __LINE__, ##args); \
+} while (0)
 
 #define BUFF_SIZE  1024
 
 namespace MysqlWrapper {
 
 class MyWrapper {
-	typedef map<string, int> map_index;
+    typedef map<string, int> map_index;
 
 public:
 	MyWrapper();
