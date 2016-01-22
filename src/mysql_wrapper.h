@@ -72,7 +72,7 @@ public:
 	MYSQL_ROW row_;
 
 private:
-	string hostname_;
+    string hostname_;
 	string username_;
 	string password_;
 	string db_;
