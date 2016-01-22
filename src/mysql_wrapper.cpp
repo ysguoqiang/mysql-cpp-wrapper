@@ -11,9 +11,9 @@ using namespace MysqlWrapper;
 
 MyWrapper::MyWrapper()
 {
-	SetConnected(false);
-	result_ = NULL;
-	mysql_init(&conn_);
+    SetConnected(false);
+    result_ = NULL;
+    mysql_init(&conn_);
 }
 
 MyWrapper::~MyWrapper()
