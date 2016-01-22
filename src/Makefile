@@ -1,5 +1,5 @@
 CC:= g++
-CFLAGS:= -Wall -O2 -c
+CFLAGS:= -Wall -O3 -c -g
 LDFLAGS:= $(shell mysql_config --libs)
 OBJSs:= $(wildcard *.cpp)
 OBJS:= $(patsubst %.cpp, %.o, $(OBJSs))
