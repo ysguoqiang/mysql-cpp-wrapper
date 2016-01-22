@@ -1,1 +1,1 @@
-This is a MySQLWrapper for C++
+This is a MySQL-CPP-WRAPPER
