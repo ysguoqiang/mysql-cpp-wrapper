@@ -8,5 +8,5 @@ Testing Environment:
     
 Features:
 ---------
-    Support Create, Delete Table
+    Support Create, Delete, Insert, Update
     Support the reconnection
