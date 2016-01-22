@@ -36,7 +36,7 @@ int main(int argc, char **argv)
 		cout << con->GetErrMsg() << endl;
 		return -1;
 	}
-	//Execute selectQuery
+	//Execute SelectQuery
 	MYSQL_ROW res = NULL;
 	while (NULL != (res = con->FetchRow())) {
 		printf("%s\t%s\t%s\t%s\t%s\n", res[0], res[1], res[2], res[3], res[4]);
