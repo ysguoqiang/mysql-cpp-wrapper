@@ -16,7 +16,7 @@
 #include <vector>
 #include <map>
 
-/* MySQL C API*/
+/* MySQL C API */
 #include <mysql/mysql.h>
 
 using std::map;
@@ -34,7 +34,7 @@ using std::endl;
 namespace MysqlWrapper {
 
 class MyWrapper {
-    typedef map<string, int> map_index;
+	typedef map<string, int> map_index;
 
 public:
 	MyWrapper();
@@ -45,8 +45,6 @@ public:
 	        const char *db);
 	void CloseConnect();
 
-	bool CreateTable(const char *sql);
-	bool DeleteTable(const char *sql);
 	bool SelectQuery(const char *sql);
 	bool ModifyQuery(const char *sql);
 	const char *GetErrMsg();
